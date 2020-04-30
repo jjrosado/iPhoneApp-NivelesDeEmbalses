@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA784F651BA0A8550080E112 /* water_PNG3317.png in Resources */ = {isa = PBXBuildFile; fileRef = FA784F641BA0A8550080E112 /* water_PNG3317.png */; };
+		FA784F671BA0A9870080E112 /* aaa-pr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA784F661BA0A9870080E112 /* aaa-pr.jpg */; };
+		FAA47CC01BA740E3002ECC2B /* PlacesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA47CBF1BA740E3002ECC2B /* PlacesTableViewCell.swift */; };
+		FAA47CC21BA7469D002ECC2B /* Dam.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA47CC11BA7469D002ECC2B /* Dam.swift */; };
+		FACD5F8D1C4F3FB800591CD3 /* SWRevealViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FACD5F8B1C4F3FB800591CD3 /* SWRevealViewController.h */; };
+		FACD5F8E1C4F3FB800591CD3 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD5F8C1C4F3FB800591CD3 /* SWRevealViewController.m */; };
+		FACDA9F11BABAF9100AA9A89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA784F681BA0D8230080E112 /* Images.xcassets */; };
+		FADBCA0E1B9FC4D10076E552 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBCA0D1B9FC4D10076E552 /* AppDelegate.swift */; };
+		FADBCA101B9FC4D10076E552 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBCA0F1B9FC4D10076E552 /* ViewController.swift */; };
+		FADBCA131B9FC4D10076E552 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADBCA111B9FC4D10076E552 /* Main.storyboard */; };
+		FADBCA181B9FC4D10076E552 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FADBCA161B9FC4D10076E552 /* LaunchScreen.xib */; };
+		FADBCA241B9FC4D10076E552 /* Niveles_de_EmbalsesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBCA231B9FC4D10076E552 /* Niveles_de_EmbalsesTests.swift */; };
+		FADBCA321B9FC7B70076E552 /* AAA_logo_horizontalmd_70aniversario.png in Resources */ = {isa = PBXBuildFile; fileRef = FADBCA311B9FC7B70076E552 /* AAA_logo_horizontalmd_70aniversario.png */; };
+		FAE95DF01BEFE313001452E8 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE95DE91BEFE313001452E8 /* Bolts.framework */; };
+		FAE95DF11BEFE313001452E8 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE95DEA1BEFE313001452E8 /* Parse.framework */; };
+		FAE95DF21BEFE313001452E8 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE95DEB1BEFE313001452E8 /* ParseCrashReporting.framework */; };
+		FAE95DF31BEFE313001452E8 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE95DEC1BEFE313001452E8 /* ParseFacebookUtils.framework */; };
+		FAE95DF41BEFE313001452E8 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE95DED1BEFE313001452E8 /* ParseFacebookUtilsV4.framework */; };
+		FAE95DF51BEFE313001452E8 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE95DEE1BEFE313001452E8 /* ParseTwitterUtils.framework */; };
+		FAE95DF61BEFE313001452E8 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE95DEF1BEFE313001452E8 /* ParseUI.framework */; };
+		FAE95DF81BEFE4C5001452E8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE95DF71BEFE4C5001452E8 /* libsqlite3.tbd */; };
+		FAE95DFE1BEFE5C4001452E8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE95DFD1BEFE5C4001452E8 /* SystemConfiguration.framework */; };
+		FAE95E001BEFE60A001452E8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE95DFF1BEFE60A001452E8 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FADBCA1E1B9FC4D10076E552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADBCA001B9FC4D10076E552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADBCA071B9FC4D10076E552;
+			remoteInfo = "Niveles de Embalses";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FACDA9EE1BAB95F000AA9A89 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA784F641BA0A8550080E112 /* water_PNG3317.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water_PNG3317.png; sourceTree = "<group>"; };
+		FA784F661BA0A9870080E112 /* aaa-pr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "aaa-pr.jpg"; sourceTree = "<group>"; };
+		FA784F681BA0D8230080E112 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAA47CBF1BA740E3002ECC2B /* PlacesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesTableViewCell.swift; sourceTree = "<group>"; };
+		FAA47CC11BA7469D002ECC2B /* Dam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dam.swift; sourceTree = "<group>"; };
+		FACD5F8B1C4F3FB800591CD3 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"; sourceTree = "<group>"; };
+		FACD5F8C1C4F3FB800591CD3 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
+		FADBCA081B9FC4D10076E552 /* Niveles de Embalses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Niveles de Embalses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADBCA0C1B9FC4D10076E552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADBCA0D1B9FC4D10076E552 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FADBCA0F1B9FC4D10076E552 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FADBCA121B9FC4D10076E552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FADBCA171B9FC4D10076E552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FADBCA1D1B9FC4D10076E552 /* Niveles de EmbalsesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Niveles de EmbalsesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADBCA221B9FC4D10076E552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADBCA231B9FC4D10076E552 /* Niveles_de_EmbalsesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Niveles_de_EmbalsesTests.swift; sourceTree = "<group>"; };
+		FADBCA311B9FC7B70076E552 /* AAA_logo_horizontalmd_70aniversario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AAA_logo_horizontalmd_70aniversario.png; sourceTree = "<group>"; };
+		FAE95DE91BEFE313001452E8 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "Niveles de Embalses/Bolts.framework"; sourceTree = "<group>"; };
+		FAE95DEA1BEFE313001452E8 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Niveles de Embalses/Parse.framework"; sourceTree = "<group>"; };
+		FAE95DEB1BEFE313001452E8 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = "Niveles de Embalses/ParseCrashReporting.framework"; sourceTree = "<group>"; };
+		FAE95DEC1BEFE313001452E8 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "Niveles de Embalses/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
+		FAE95DED1BEFE313001452E8 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = "Niveles de Embalses/ParseFacebookUtilsV4.framework"; sourceTree = "<group>"; };
+		FAE95DEE1BEFE313001452E8 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseTwitterUtils.framework; path = "Niveles de Embalses/ParseTwitterUtils.framework"; sourceTree = "<group>"; };
+		FAE95DEF1BEFE313001452E8 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "Niveles de Embalses/ParseUI.framework"; sourceTree = "<group>"; };
+		FAE95DF71BEFE4C5001452E8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		FAE95DFD1BEFE5C4001452E8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FAE95DFF1BEFE60A001452E8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FADBCA051B9FC4D10076E552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE95E001BEFE60A001452E8 /* AudioToolbox.framework in Frameworks */,
+				FAE95DFE1BEFE5C4001452E8 /* SystemConfiguration.framework in Frameworks */,
+				FAE95DF81BEFE4C5001452E8 /* libsqlite3.tbd in Frameworks */,
+				FAE95DF11BEFE313001452E8 /* Parse.framework in Frameworks */,
+				FAE95DF21BEFE313001452E8 /* ParseCrashReporting.framework in Frameworks */,
+				FAE95DF61BEFE313001452E8 /* ParseUI.framework in Frameworks */,
+				FAE95DF31BEFE313001452E8 /* ParseFacebookUtils.framework in Frameworks */,
+				FAE95DF01BEFE313001452E8 /* Bolts.framework in Frameworks */,
+				FAE95DF51BEFE313001452E8 /* ParseTwitterUtils.framework in Frameworks */,
+				FAE95DF41BEFE313001452E8 /* ParseFacebookUtilsV4.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADBCA1A1B9FC4D10076E552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FABE0FAC1C4F3C2800FAD250 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FACD5F8B1C4F3FB800591CD3 /* SWRevealViewController.h */,
+				FACD5F8C1C4F3FB800591CD3 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		FADBC9FF1B9FC4D10076E552 = {
+			isa = PBXGroup;
+			children = (
+				FABE0FAC1C4F3C2800FAD250 /* SWRevealViewController */,
+				FAE95E011BEFE657001452E8 /* Frameworks */,
+				FADBCA0A1B9FC4D10076E552 /* Niveles de Embalses */,
+				FADBCA201B9FC4D10076E552 /* Niveles de EmbalsesTests */,
+				FADBCA091B9FC4D10076E552 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FADBCA091B9FC4D10076E552 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FADBCA081B9FC4D10076E552 /* Niveles de Embalses.app */,
+				FADBCA1D1B9FC4D10076E552 /* Niveles de EmbalsesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FADBCA0A1B9FC4D10076E552 /* Niveles de Embalses */ = {
+			isa = PBXGroup;
+			children = (
+				FADBCA301B9FC7590076E552 /* Images */,
+				FADBCA0D1B9FC4D10076E552 /* AppDelegate.swift */,
+				FADBCA0F1B9FC4D10076E552 /* ViewController.swift */,
+				FADBCA111B9FC4D10076E552 /* Main.storyboard */,
+				FADBCA161B9FC4D10076E552 /* LaunchScreen.xib */,
+				FA784F681BA0D8230080E112 /* Images.xcassets */,
+				FADBCA0B1B9FC4D10076E552 /* Supporting Files */,
+				FAA47CBF1BA740E3002ECC2B /* PlacesTableViewCell.swift */,
+				FAA47CC11BA7469D002ECC2B /* Dam.swift */,
+			);
+			path = "Niveles de Embalses";
+			sourceTree = "<group>";
+		};
+		FADBCA0B1B9FC4D10076E552 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FADBCA0C1B9FC4D10076E552 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FADBCA201B9FC4D10076E552 /* Niveles de EmbalsesTests */ = {
+			isa = PBXGroup;
+			children = (
+				FADBCA231B9FC4D10076E552 /* Niveles_de_EmbalsesTests.swift */,
+				FADBCA211B9FC4D10076E552 /* Supporting Files */,
+			);
+			path = "Niveles de EmbalsesTests";
+			sourceTree = "<group>";
+		};
+		FADBCA211B9FC4D10076E552 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FADBCA221B9FC4D10076E552 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FADBCA301B9FC7590076E552 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FA784F641BA0A8550080E112 /* water_PNG3317.png */,
+				FA784F661BA0A9870080E112 /* aaa-pr.jpg */,
+				FADBCA311B9FC7B70076E552 /* AAA_logo_horizontalmd_70aniversario.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		FAE95E011BEFE657001452E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAE95DFF1BEFE60A001452E8 /* AudioToolbox.framework */,
+				FAE95DFD1BEFE5C4001452E8 /* SystemConfiguration.framework */,
+				FAE95DF71BEFE4C5001452E8 /* libsqlite3.tbd */,
+				FAE95DE91BEFE313001452E8 /* Bolts.framework */,
+				FAE95DEA1BEFE313001452E8 /* Parse.framework */,
+				FAE95DEB1BEFE313001452E8 /* ParseCrashReporting.framework */,
+				FAE95DEC1BEFE313001452E8 /* ParseFacebookUtils.framework */,
+				FAE95DED1BEFE313001452E8 /* ParseFacebookUtilsV4.framework */,
+				FAE95DEE1BEFE313001452E8 /* ParseTwitterUtils.framework */,
+				FAE95DEF1BEFE313001452E8 /* ParseUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FACDA9EF1BAB960A00AA9A89 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACD5F8D1C4F3FB800591CD3 /* SWRevealViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FADBCA071B9FC4D10076E552 /* Niveles de Embalses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADBCA271B9FC4D10076E552 /* Build configuration list for PBXNativeTarget "Niveles de Embalses" */;
+			buildPhases = (
+				FADBCA041B9FC4D10076E552 /* Sources */,
+				FADBCA051B9FC4D10076E552 /* Frameworks */,
+				FADBCA061B9FC4D10076E552 /* Resources */,
+				FACDA9EE1BAB95F000AA9A89 /* CopyFiles */,
+				FACDA9EF1BAB960A00AA9A89 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Niveles de Embalses";
+			productName = "Niveles de Embalses";
+			productReference = FADBCA081B9FC4D10076E552 /* Niveles de Embalses.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FADBCA1C1B9FC4D10076E552 /* Niveles de EmbalsesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADBCA2A1B9FC4D10076E552 /* Build configuration list for PBXNativeTarget "Niveles de EmbalsesTests" */;
+			buildPhases = (
+				FADBCA191B9FC4D10076E552 /* Sources */,
+				FADBCA1A1B9FC4D10076E552 /* Frameworks */,
+				FADBCA1B1B9FC4D10076E552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADBCA1F1B9FC4D10076E552 /* PBXTargetDependency */,
+			);
+			name = "Niveles de EmbalsesTests";
+			productName = "Niveles de EmbalsesTests";
+			productReference = FADBCA1D1B9FC4D10076E552 /* Niveles de EmbalsesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FADBCA001B9FC4D10076E552 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Javier Rosado";
+				TargetAttributes = {
+					FADBCA071B9FC4D10076E552 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = KPJ34MK789;
+					};
+					FADBCA1C1B9FC4D10076E552 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FADBCA071B9FC4D10076E552;
+					};
+				};
+			};
+			buildConfigurationList = FADBCA031B9FC4D10076E552 /* Build configuration list for PBXProject "Niveles de Embalses" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FADBC9FF1B9FC4D10076E552;
+			productRefGroup = FADBCA091B9FC4D10076E552 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FADBCA071B9FC4D10076E552 /* Niveles de Embalses */,
+				FADBCA1C1B9FC4D10076E552 /* Niveles de EmbalsesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FADBCA061B9FC4D10076E552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA784F671BA0A9870080E112 /* aaa-pr.jpg in Resources */,
+				FADBCA131B9FC4D10076E552 /* Main.storyboard in Resources */,
+				FA784F651BA0A8550080E112 /* water_PNG3317.png in Resources */,
+				FACDA9F11BABAF9100AA9A89 /* Images.xcassets in Resources */,
+				FADBCA321B9FC7B70076E552 /* AAA_logo_horizontalmd_70aniversario.png in Resources */,
+				FADBCA181B9FC4D10076E552 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADBCA1B1B9FC4D10076E552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FADBCA041B9FC4D10076E552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADBCA101B9FC4D10076E552 /* ViewController.swift in Sources */,
+				FADBCA0E1B9FC4D10076E552 /* AppDelegate.swift in Sources */,
+				FACD5F8E1C4F3FB800591CD3 /* SWRevealViewController.m in Sources */,
+				FAA47CC21BA7469D002ECC2B /* Dam.swift in Sources */,
+				FAA47CC01BA740E3002ECC2B /* PlacesTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADBCA191B9FC4D10076E552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADBCA241B9FC4D10076E552 /* Niveles_de_EmbalsesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FADBCA1F1B9FC4D10076E552 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADBCA071B9FC4D10076E552 /* Niveles de Embalses */;
+			targetProxy = FADBCA1E1B9FC4D10076E552 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FADBCA111B9FC4D10076E552 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADBCA121B9FC4D10076E552 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FADBCA161B9FC4D10076E552 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADBCA171B9FC4D10076E552 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FADBCA251B9FC4D10076E552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Javier Rosado (8YEUKUP4N7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FADBCA261B9FC4D10076E552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Javier Rosado (8YEUKUP4N7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FADBCA281B9FC4D10076E552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Niveles",
+					de,
+					Embalses,
+				);
+				INFOPLIST_FILE = "Niveles de Embalses/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.javierrosado.Niveles-de-Embalses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FADBCA291B9FC4D10076E552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Niveles",
+					de,
+					Embalses,
+				);
+				INFOPLIST_FILE = "Niveles de Embalses/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.javierrosado.Niveles-de-Embalses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		FADBCA2B1B9FC4D10076E552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Niveles de EmbalsesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.javierrosado.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Niveles de Embalses.app/Niveles de Embalses";
+			};
+			name = Debug;
+		};
+		FADBCA2C1B9FC4D10076E552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Niveles de EmbalsesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.javierrosado.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Niveles de Embalses.app/Niveles de Embalses";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FADBCA031B9FC4D10076E552 /* Build configuration list for PBXProject "Niveles de Embalses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADBCA251B9FC4D10076E552 /* Debug */,
+				FADBCA261B9FC4D10076E552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADBCA271B9FC4D10076E552 /* Build configuration list for PBXNativeTarget "Niveles de Embalses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADBCA281B9FC4D10076E552 /* Debug */,
+				FADBCA291B9FC4D10076E552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADBCA2A1B9FC4D10076E552 /* Build configuration list for PBXNativeTarget "Niveles de EmbalsesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADBCA2B1B9FC4D10076E552 /* Debug */,
+				FADBCA2C1B9FC4D10076E552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FADBCA001B9FC4D10076E552 /* Project object */;
+}
